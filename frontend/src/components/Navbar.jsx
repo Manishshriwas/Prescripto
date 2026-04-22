@@ -37,6 +37,10 @@ const Navbar = () => {
                     <li className='py-1'>CONTACT</li>
                     <hr className='border-none outline-none h-0.5 bg-primary w-3/5 m-auto hidden' />
                 </NavLink>
+                <NavLink to="/chatbot">
+                    <li className='py-1 text-green-600 font-semibold'>AI-ASSISTANT</li>
+                    <hr className='border-none outline-none h-0.5 bg-green-500 w-3/5 m-auto hidden' />
+                </NavLink>
             </ul>
             <div className='flex items-center gap-4'>
                 {
